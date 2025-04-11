@@ -1,0 +1,60 @@
+---
+---
+<div class="absolute inset-0 opacity-5 pattern-papel-picado"></div>
+<div class="container mx-auto px-4 relative">
+    <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-mexican-red font-display text-4xl md:text-5xl mb-6">
+            Donde las Leyendas se encuentran con el sabor
+        </h2>
+        <div class="grid md:grid-cols-2 gap-12 items-center mt-12">
+            <div class="space-y-6 text-left">
+                <p class="text-mexican-gold text-lg leading-relaxed">
+                    Bienvenido a <span class="font-semibold">Encanto de las leyendas</span>, donde cada bocado cuenta una historia del rico entramado cultura de México. Nuestro café es más que un simple restaurante: es un viaje a través de las leyendas místicas que han forjado nuestro legado.
+                </p>
+                <div class="space-y-4">
+                    <h3 class="text-mexican-green text-xl font-display">Nuestras especialidades</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <span class="text-mexican-red">✦</span>
+                            <span class="ml-2">Marquesitas (Dulces o Saladas)</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-mexican-red">✦</span>
+                            <span class="ml-2">Crespas (Dulces o Saladas)</span>
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-mexican-red">✦</span>
+                            <span class="ml-2">Mousse</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="aspect-square rounded-full bg-gradient-to-br from-mexican-red/20 to-mexican-gold/20 p-8">
+                    <div class="relative h-full w-full rounded-full bg-white/90 shadow-xl p-6 transform transition-transform hover:scale-105">
+                        <div class="absolute inset-0 rounded-full overflow-hidden">
+                            <div class="legend-illustrations h-full w-full"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .pattern-papel-picado {
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z' fill='%23000000' fill-opacity='0.1'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .legend-illustrations {
+        background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm0 90c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40z' fill='%23B91C1C' fill-opacity='0.1'/%3E%3C/svg%3E");
+        animation: rotate 20s linear infinite;
+    }
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>

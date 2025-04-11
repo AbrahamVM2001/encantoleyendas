@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@theme {
+    --color-palette1: #1C1C1C;
+    --color-palette2: #5C4033;
+    --color-palette3: #F5E6DA;
+    --color-palette4: #9E1B1B;
+    --color-palette5: #D4AF37;
+    --color-palette6: #3A6B35;
+    --color-palette7: #6E3A87;
+}
+
+@plugin "@iconify/tailwind4";
+
+.card {
+    @apply relative rounded-lg shadow-md pt-20 pb-6 px-4 text-left bg-palette3
+}
+
+.card-image {
+    @apply absolute -top-10 left-1/2 -translate-x-1/2 w-40 h-40
+}
+
+.card-body {
+    @apply px-3 py-3
+}
