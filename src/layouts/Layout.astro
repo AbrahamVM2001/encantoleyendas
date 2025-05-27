@@ -20,8 +20,8 @@ import Preloader from "@/lib/preloader/index";
 		<link rel="stylesheet" href="/public/css/style.css">
 	</head>
 	<body class="bg-neutral-50 text-palette1">
-		<Preloader client:only="load" />
-		<Nav client:only="load" />
+		<Preloader client:only="react" />
+		<Nav client:only="react" />
 		<slot />
 	</body>
 </html>
